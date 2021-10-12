@@ -1,0 +1,115 @@
+/*
+Project Name:	Zoo
+Filename:	styles.css
+Author:	Katie King
+Date:	3/7/18
+*/
+
+	body {
+		background-color: black;
+		color: #FFC341;
+	}
+		h1 {
+			color: orange;
+			text-align: center;
+			font-family: harrington;
+		}
+		h2 {
+			color: #DC3131;
+			text-align: center;
+			font-family: algerian;
+			font-size: 30px;
+			text-shadow: 3px 2px white;
+		}
+			p {
+			font-family: bradley hand itc;
+			font-size: 20px;
+			}
+				body, html {
+					height: 100%;
+				}
+				.image {
+					background-image: url("horsebanner.jpg");
+					height: 70%;
+					background-position: center;
+					background-repeat: no-repeat;
+					background-size: cover;
+					position: relative;
+				}
+				.text {
+					text-align: center;
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					color: orange;
+					text-shadow: 3px 2px #995e03;
+				}
+	ul {
+		list-style-type: square;
+		color: white;
+		font-size: 25px;
+	}
+	footer {
+		color: #FFC341;
+		font-size: 16px;
+	}
+	a {
+		color: lightgray;
+		font-size: 25px;
+		font-family: informal roman;
+	}
+	a:visted {
+		color: #911b00;
+	}
+	a:hover {
+		color: #474747;
+	}
+	a:active {
+		color: black;
+	}
+		.adress {
+			text-align: center;
+			font-size: 18px;
+		}
+	dl {
+		font-size: 25px;
+		text-align: left;
+	}
+	dt {
+		font-family: harrington;
+		font-size: 27px;
+		color: #e68a00;
+	}
+	dd {
+		font-family: bradley hand itc;
+	}
+					#exhibits {
+						text-align: center;
+					}
+	ol {
+		list-style-type: upper-roman;
+		font-size: 25px;
+		font-family: informal roman;
+	}
+	img {
+		float: right;
+	}
+					#animaltitle {
+						font-size: 30px;
+						color: red;
+						font-family: harrington;
+						text-shadow: 3px 2px #720101;
+					}
+	table {
+		font-family: bradley hand itc;
+	}
+	th {
+		font-size: 30px;
+	}
+			.tablehead {
+				font-size: 35px;
+				font-family: harrington;
+				color: red;
+				text-shadow: 3px 2px white;
+			}
